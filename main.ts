@@ -3,19 +3,19 @@ basic.forever(function () {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.InBackground)
         for (let index = 0; index < 12; index++) {
             basic.showLeds(`
-                # . # . #
-                . # . # .
-                # . # . #
-                . # . # .
                 . . # . .
+                . # . # .
+                # . # . #
+                . # . # .
+                # . # . #
                 `)
             basic.pause(100)
             basic.showLeds(`
+                . . . . .
+                . . # . .
                 . # . # .
                 # . # . #
                 . # . # .
-                . . # . .
-                . . . . .
                 `)
             basic.pause(200)
         }
